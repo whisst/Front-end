@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<link href="https://fonts.googleapis.com/css2?family=Rowdies:wght@700&display=swap" rel="stylesheet">
+<style type="text/css">
+    .welcome-section {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 50vh;
+    background-color: #000;
+    background-image: linear-gradient(62deg, #3a3d40 0%, #181719 100%);
+	}
+	.welcome-section > img{
+		width: 200px;
+		margin-left: 50px;
+	}
+	.welcome-section > h1{
+		font-weight: bold;
+		font-size: 70px;
+		color: #fff;
+		font-family: 'Rowdies', cursive;
+	}
+	.projects-section {
+    text-align: center;
+    padding: 10rem 2rem;
+    background: var(--main-blue);
+	}	
+	.projects-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    grid-gap: 4rem;
+    width: 100%;
+    max-width: 1280px;
+    margin: 0 auto;
+    margin-bottom: 6rem;
+    }
+    @media (max-width: 30.625em) {
+    .projects-section {
+    padding: 6rem 1rem;
+    }
+	.projects-section-header{
+    width: 70px;
+    margin: 0 auto 6rem auto;
+    border-bottom: 0.2rem solid var(--main-white);
+    font-size: 70px;
+    font-weight: bold;
+	}
+	@media (max-width: 28.75em) {
+    	.projects-section-header {
+    	font-size: 4rem;
+    	}
+    }
+    .projects-grid {
+    grid-template-columns: 1fr;
+    }
+    }
+    .project-image {
+	width: 385px;
+    object-fit: cover;
+    }
+</style>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+	<section id="welcome-section" class="welcome-section">
+		<h1>Welcome to Inlab</h1>
+		<img src="C:\Users\Whis\Desktop\front-end\project\Inlab\inlab.png">
+	</section>
+	<section id="projects-section" class="projects-section">
+		<div class="projects-grid">	
+			<img src="C:\Users\Whis\Desktop\front-end\project\Inlab\inlab.png" alt="inlab" class="project-image">
+			<img src="C:\Users\Whis\Desktop\front-end\project\Inlab\inlab.png" alt="inlab" class="project-image">
+			<img src="C:\Users\Whis\Desktop\front-end\project\Inlab\inlab.png" alt="inlab" class="project-image">
+			<img src="C:\Users\Whis\Desktop\front-end\project\Inlab\inlab.png" alt="inlab" class="project-image">
+			<img src="C:\Users\Whis\Desktop\front-end\project\Inlab\inlab.png" alt="inlab" class="project-image">
+			<img src="C:\Users\Whis\Desktop\front-end\project\Inlab\inlab.png" alt="inlab" class="project-image">
+		</div>
+	</section>
+</body>
+</html>
